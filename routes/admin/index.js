@@ -3,7 +3,7 @@ const router = express.Router();
 const Post = require('../../models/Post');
 const faker = require('faker');
 const {userAuthenticated} = require('../../helpers/authentication');
-const Category = require('../../models/category');
+const Category = require('../../models/Category');
 const Comment = require('../../models/comment');
 
 router.all('*',userAuthenticated,(req,res,next)=>{

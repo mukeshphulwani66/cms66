@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Category = require('../../models/category');
+const Category = require('../../models/Category');
 const {userAuthenticated} = require('../../helpers/authentication');
 
 router.all('*',userAuthenticated,(req,res,next)=>{

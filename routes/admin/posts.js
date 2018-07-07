@@ -4,7 +4,7 @@ const Post = require('../../models/Post');
 const { isEmpty,uploadDir } = require('../../helpers/upload-helpers');
 const fs = require('fs');
 const path =  require('path');
-const Category = require('../../models/category');
+const Category = require('../../models/Category');
 const {userAuthenticated} = require('../../helpers/authentication');
 
 
