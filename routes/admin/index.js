@@ -4,7 +4,7 @@ const Post = require('../../models/Post');
 const faker = require('faker');
 const {userAuthenticated} = require('../../helpers/authentication');
 const Category = require('../../models/Category');
-const Comment = require('../../models/comment');
+const Comment = require('../../models/Comment');
 
 router.all('*',userAuthenticated,(req,res,next)=>{
    req.app.locals.layout = 'admin';

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Post = require('../../models/Post');
-const Comment = require('../../models/comment');
+const Comment = require('../../models/Comment');
 const {userAuthenticated} = require('../../helpers/authentication');
 
 router.all('*',userAuthenticated,(req,res,next)=>{
