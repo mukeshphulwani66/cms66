@@ -9,29 +9,29 @@ have a look: https://cms66.herokuapp.com/
 ## how to setup your cms in 2 second
 Type these commands in your terminal and you will be good to go.
 
-###step 1 - install the module
+### step 1 - install the module
 
 ``` bash
 npm install -g cms-66
 ```
 
-###step 2 - setup your project
+### step 2 - setup your project
 
 ``` bash
 cms-66 create-cms <your-app-name>
 ```
 
-###now cd into your project
+### now cd into your project
 ``` bash
 cd <your-app-name>
 ```
 
-###install the required dependencies
+### install the required dependencies
 ``` bash
 npm install
 ```
 
-###step 3 - run your app
+### step 3 - run your app
 
 ``` bash
 cms-66 run-cms
